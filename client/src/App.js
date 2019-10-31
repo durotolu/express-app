@@ -19,7 +19,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           {
-            stuff && stuff[1].name
+            stuff && stuff[2].name
           }
         </p>
         <a
