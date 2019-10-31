@@ -9,7 +9,7 @@ function App() {
   useEffect(() => {
     axios.get((process.env.REACT_APP_API || '') + 'api/friends')
       .then(res => {
-        setStuff(res.data)
+        setStuff(res.data);
       })
   })
 
@@ -18,9 +18,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          {
-            stuff && stuff[1].name
-          }
+          dude
         </p>
         <a
           className="App-link"
