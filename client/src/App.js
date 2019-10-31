@@ -18,7 +18,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          dude
+          {
+            stuff && stuff[1].name
+          }
         </p>
         <a
           className="App-link"
